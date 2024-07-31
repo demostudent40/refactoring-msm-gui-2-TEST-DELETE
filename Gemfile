@@ -90,7 +90,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "draft_generators"
-  gem "grade_runner"
+  gem "grade_runner", github: "firstdraft/grade_runner", branch: "jw-download-specs-from-grades"
   gem "pry-rails"
   gem "rails_db"
   gem "rails-erd"
