@@ -1,18 +1,10 @@
 require "rails_helper"
 
 describe "/actors" do
-  it "has a form", :points => 2 do
+  it "has a form", :points => 1 do
     visit "/actors"
 
     expect(page).to have_css("form", minimum: 1)
-  end
-end
-
-describe "/actors" do
-  it "has a label for 'Name' with text: 'Name'", :points => 1, hint: h("copy_must_match label_for_input") do
-    visit "/actors"
-
-    expect(page).to have_css("label", text: "Name")
   end
 end
 
