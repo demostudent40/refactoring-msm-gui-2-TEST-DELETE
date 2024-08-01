@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/firstdraft/grade_runner.git
-  revision: 20f9339442ad9a68fb182f512115464f423abf9f
+  revision: 07eb6334d163d933cd82e9664325f0673e64fa59
   branch: jw-download-specs-from-grades
   specs:
     grade_runner (0.0.12)
