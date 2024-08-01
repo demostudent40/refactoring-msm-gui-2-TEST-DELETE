@@ -9,6 +9,14 @@ describe "/actors" do
 end
 
 describe "/actors" do
+  it "has a label for 'Name' with text: 'Name'", :points => 1, hint: h("copy_must_match label_for_input") do
+    visit "/actors"
+
+    expect(page).to have_css("label", text: "Name")
+  end
+end
+
+describe "/actors" do
   it "has at least one input elements", :points => 1, hint: h("label_for_input") do
     visit "/actors"
 
