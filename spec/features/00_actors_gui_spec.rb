@@ -1,7 +1,7 @@
 require "rails_helper"
 
 describe "/actors" do
-  it "has a form", :points => 1 do
+  it "has a form", :points => 2 do
     visit "/actors"
 
     expect(page).to have_css("form", minimum: 1)
