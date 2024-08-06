@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/firstdraft/grade_runner.git
-  revision: 07eb6334d163d933cd82e9664325f0673e64fa59
-  branch: jw-download-specs-from-grades
+  revision: 64c8972d95e1d47a1643937ea6f67aa62f91e646
+  branch: bp-tmp
   specs:
     grade_runner (0.0.12)
       activesupport (>= 2.3.5)
